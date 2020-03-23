@@ -3789,3 +3789,10 @@ Slides Index
 
 .text-slide-number {
   color: #abc; }
+
+.mobilehide{
+  display: none;
+}
+@media (max-width: 500px) {
+  .mobilehide {
+  display: inline; } }
